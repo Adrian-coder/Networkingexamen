@@ -97,7 +97,7 @@ function renderLogin() {
   app.innerHTML = `
     <section class="card pad center">
       <div class="login-logo">N</div>
-      <h1 class="h1">Networking<br></h1>
+      <h1 class="h1">Networking<br>Practice</h1>
       <p class="muted">Acces protejat. Introdu parola pentru a deschide banca de întrebări.</p>
       <form id="loginForm">
         <div class="field"><label>Parolă</label><input id="password" class="input" type="password" autocomplete="current-password" placeholder="••••••••" required></div>
