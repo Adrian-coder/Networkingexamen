@@ -13,7 +13,7 @@ module.exports = async (req, res) => {
   if (!pool.length) return res.status(400).json({ error: 'Nu există întrebări pentru filtrul ales.' });
   let count = body.count === 'all' ? pool.length : Number(body.count || 40);
   count = Math.max(1, Math.min(pool.length, Number.isFinite(count) ? count : 40));
-  let picked = order === 'source' ? [...pool] : shuffled(pool);
+  let picked = order === 'source' ? [...pool].sort((a,b) => (a.sourceOrder ?? a.id) - (b.sourceOrder ?? b.id)) : shuffled(pool);
   picked = picked.slice(0, count);
   return res.status(200).json({ total: picked.length, questions: picked.map(publicQuestion) });
 };
