@@ -224,7 +224,8 @@
     ],
     "explanation": "For each statement about client-server networks, select True or False.\nAnswer Area:\nA client-server network has centralized administration.\nA client-server network requires each computer to share its resources.\nA client-server network requires users to have a user account on every computer they need to use.\nA) True - Serverul central gestionează utilizatorii, permisiunile și resursele.\nB) False - Doar serverul partajează resurse; clienții accesează, dar nu partajează.\nC) False - Autentificarea este centralizată (ex: Active Directory). Utilizatorii se autentifică o singură dată la server și accesează resurse fără cont local pe fiecare calculator.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 7
+    "sourceOrder": 7,
+    "translation": "Pentru fiecare afirmație despre rețelele client-server, selectează Adevărat sau Fals."
   },
   {
     "id": 8,
@@ -314,7 +315,8 @@
     ],
     "explanation": "For each statement about hypervisors, select True or False\nAnswer Area\nA Type 1 hypervisor runs directly on system hardware.\nA Type 2 hypervisor runs directly on system hardware.\nA Type 1 hypervisor is also known as a bare-metal hypervisor.\n1. A Type 1 hypervisor runs directly on system hardware — Corect- Type 1 hypervisor (ex: VMware ESXi, Hyper-V, Xen) rulează direct pe hardware-ul fizic, fără un sistem de operare gazdă. Gestionează resursele fizice și găzduiește VM-urile\n2. A Type 2 hypervisor runs directly on system hardware — Greșit - Type 2 hypervisor (ex: VirtualBox, VMware Workstation) rulează deasupra unui sistem de operare gazdă (ex: Windows, Linux). Nu are acces direct la hardware.\n3. A Type 1 hypervisor is also known as a bare-metal hypervisor — Corect - Tocmai pentru că rulează direct pe hardware, Type 1 este numit și bare-metal hypervisor.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 10
+    "sourceOrder": 10,
+    "translation": "Pentru fiecare afirmație despre hipervizoare, selectează Adevărat sau Fals."
   },
   {
     "id": 10,
@@ -613,7 +615,8 @@
     ],
     "explanation": "For each of the following statements, select Yes if the statement is true. Otherwise, select No. Each correct selection is worth one point. Hot Area:\n1. IPsec can be used to secure network communications between two machines.\n✔️ Răspuns: Yes 🔹 IPsec poate fi folosit în modul host-to-host, adică pentru a securiza comunicarea direct între două calculatoare. 🔹 Este folosit pentru criptare, autentificare și integritate a datelor.\n2. IPsec can be used to secure network communication between two networks.\n✔️ Răspuns: Yes 🔹 IPsec este adesea folosit în scenarii site-to-site VPN, adică pentru a securiza comunicarea între două rețele prin internet. 🔹 Este utilizat pentru a crea un tunel criptat între două gateway-uri (ex. două routere).\n3. IPsec network traffic is always encrypted.\n❌ Răspuns: No 🔹 IPsec poate oferi criptare, dar nu o face întotdeauna. 🔹 În modul AH (Authentication Header), IPsec oferă doar autentificare și integritate, fără criptare. 🔹 Numai în modul ESP (Encapsulating Security Payload) este activată criptarea.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 19
+    "sourceOrder": 19,
+    "translation": "Pentru fiecare dintre afirmațiile următoare, selectează Yes dacă afirmația este adevărată. În caz contrar, selectează No."
   },
   {
     "id": 18,
@@ -1020,7 +1023,8 @@
     ],
     "explanation": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.\nEach correct selection is worth one point.\nYou use a perimeter network to grant internal clients access to external resources. - False\nA LAN has no access to the perimeter network. - False\nA perimeter network typically contains servers that require Internet access, such as web or email servers. - True\n1. You use a perimeter network to grant internal clients access to external resources.\nRăspuns: No ✔️ 1. – Fals, scopul unei perimeter network (DMZ) este să ofere acces din Internet către anumite servere interne, nu invers. Resursele din DMZ sunt accesibile din exterior, dar nu sunt folosite pentru ca internii să acceseze resurse externe.\n2. A LAN has no access to the perimeter network.\nRăspuns: No ✔️ 2. - Fals, rețeaua locală (LAN) poate avea acces controlat la DMZ. De exemplu, un administrator din LAN poate accesa serverul web din DMZ pentru mentenanță. Accesul este posibil, dar securizat.\n3. A perimeter network typically contains servers that require Internet access, such as web or email servers.\nRăspuns: Yes ✔️ 3. – Adevărat, acesta este scopul principal al unei rețele perimetrale (DMZ): găzduirea serverelor (web, email, FTP) care trebuie să fie accesibile din Internet, fără a expune întreaga rețea internă.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 31
+    "sourceOrder": 31,
+    "translation": "Pentru fiecare dintre afirmațiile următoare, selectează Yes dacă afirmația este adevărată. În caz contrar, selectează No."
   },
   {
     "id": 30,
@@ -1619,7 +1623,8 @@
     ],
     "explanation": "For each statement about wide area networks (WANs), select True or False Note: You will receive partial credit for each correct selection.\nAnswer Area:\nThe Internet is a wide area network (WAN) True / False\nAn intranet is a wide area network (WAN) True / False\nAll devices connected to a WAN must be located within the same city. True / False\n1. → True - Un WAN (Wide Area Network) conectează rețele din locații geografice diferite. Internetul este cel mai mare exemplu de WAN — interconectează milioane de rețele la nivel global.\n2. → False - Intranet este o rețea privată folosită în interiorul unei organizații. Poate fi poate fi LAN (dacă toate dispozitivele sunt într-o singură locație fizică) sau WAN (dacă conectează mai multe filiale prin linii dedicate/VPN), dar nu este definită ca WAN.\n3. → False - WAN-urile sunt concepute exact pentru a conecta locații aflate în orașe sau țări diferite. Dacă toate dispozitivele sunt în același oraș, este clasificat ca MAN (Metropolitan Area Network) sau LAN.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 48
+    "sourceOrder": 48,
+    "translation": "Pentru fiecare afirmație despre rețelele WAN, selectează Adevărat sau Fals."
   },
   {
     "id": 44,
@@ -1822,7 +1827,8 @@
     ],
     "explanation": "1. A leased line establishes a point-to-point link between two locations. – True/False\n2. A leased line is an always-on bidirectional connection. – True/False\n3. A leased line is limited to no more than 128 Kbps. – True/False\n1. - Adevărat, leased line (linie închiriată) este o conexiune dedicată punct-la-punct între două locații. Este folosită de obicei pentru a conecta sucursale, birouri sau centre de date, oferind lățime de bandă constantă și conexiune permanentă.\n2. – Adevărat, leased line-ul este permanent activ (always-on) și permite comunicare bidirecțională simultană (full-duplex), spre deosebire de conexiunile dial-up, care trebuie stabilite de fiecare dată.\n3. – Fals, Leased lines nu sunt limitate la 128 Kbps. Pot oferi viteze variate, de la 64 Kbps până la sute de Mbps sau chiar Gbps, în funcție de tipul liniei (ex. T1, E1, T3, E3, fiber, etc.). 128 Kbps era o limitare pentru conexiuni mai vechi, cum ar fi ISDN BRI, nu pentru leased lines moderne.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 54
+    "sourceOrder": 54,
+    "translation": "Pentru fiecare afirmație despre liniile închiriate (leased lines), selectează Adevărat sau Fals."
   },
   {
     "id": 50,
@@ -2613,7 +2619,8 @@
     ],
     "explanation": "For each statement about client-server networks, select True or False.\n802.11n supports MIMO by using multiple antennas– True/False\n802.11n uses frame aggregation to increase efficiency– True/False\n802.11n uses channel bonding to use two channels at once so that bandwidth is doubled– True/False\n802.11ac is backward compatible with 802.11a/b/g/n– True/False\n802.11ac WAPs support simultaneous transmissions on the 2.4 and 5 Ghz frequency bands– True/False\nThe maximum bandwidth for 802.11ac is 1.3 Gbps” – True / False\n1) – Corect, 802.11n a introdus tehnologia MIMO (Multiple Input, Multiple Output), care folosește mai multe antene pentru a trimite și primi mai multe fluxuri de date simultan, crescând performanța și raza de acoperire.\n2) – Corect, frame aggregation este o tehnică folosită de 802.11n pentru a grupa mai multe cadre într-unul singur, reducând astfel overhead-ul de protocol și crescând eficiența transmisiunii.\n3) – Corect, 802.11n poate folosi channel bonding pentru a combina două canale de 20 MHz într-unul de 40 MHz, dublând astfel lățimea de bandă teoretică disponibilă.\n4) – Corect, 802.11ac este compatibil retroactiv cu toate versiunile anterioare (a/b/g/n), permițând dispozitivelor mai vechi să se conecteze la punctele de acces AC, deși la viteze reduse.\n5) – Corect, 802.11ac funcționează doar pe 5 GHz; suportul 2.4 GHz vine de la hardware.\n6) – Corect, standardul IEEE 802.11ac (Wi-Fi 5) oferă viteze teoretice maxime de până la 1.3 Gbps pe un singur flux, utilizând: canale de 80 MHz, 3 fluxuri spațiale MIMO și modulație 256-QAM.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 77
+    "sourceOrder": 77,
+    "translation": "Pentru fiecare afirmație despre standardele wireless, selectează Adevărat sau Fals."
   },
   {
     "id": 65,
@@ -2876,7 +2883,8 @@
     ],
     "explanation": "For each statement about ad hoc network, select True or False.\nAn ad hoc network is a peer-to-peer network – True/False\nAn ad hoc network supports WEP, WPA, WPA2 – True/False\nA wireless access network requires a wired router or switch to connect to a wired network – True/False\nA wireless access point (WAP) network is more secure than an ad hoc network – True/False\n✅ 1. Corect - O rețea ad hoc permite dispozitivelor să se conecteze direct între ele fără un punct de acces (WAP) sau un router. Acest tip de rețea este un exemplu de rețea peer-to-peer, deoarece toate dispozitivele comunică direct și sunt egale.\n2. – Incorect, majoritatea rețelelor ad hoc suportă doar WEP, un protocol învechit și nesigur. WPA și WPA2 sunt rareori disponibile în mod complet pentru rețelele ad hoc și nu sunt standardizate sau garantate.\n✅ 3. – Corect, o rețea wireless (bazată pe WAP) are nevoie de conexiune fizică (Ethernet) la un router sau switch pentru a se conecta la rețeaua cu fir (LAN sau Internet). WAP-ul acționează ca intermediar între rețeaua wireless și cea cablată.\n✅ 4. – Corect, rețelele WAP oferă: control centralizat, criptare WPA2/WPA3. Rețelele ad hoc: n au punct de control central. Nu sunt gândite pentru securitate pe termen lung. Sunt vulnerabile la interceptare, spoofing și atacuri man-in-the-middle.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 85
+    "sourceOrder": 85,
+    "translation": "Pentru fiecare afirmație despre rețelele ad hoc și rețelele wireless cu punct de acces, selectează Adevărat sau Fals."
   },
   {
     "id": 73,
@@ -2937,7 +2945,8 @@
     ],
     "explanation": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.\nEach correct selection is worth one point.\nA wireless bridge connects Ethernet-based devices to the network. –True\nA wireless bridge increases the wireless signal strength of the access point - False\nWireless bridges always work in pairs. - True\n✅ „A wireless bridge connects Ethernet-based devices to the network.” DA – Corect. Puntea wireless (wireless bridge) permite conectarea dispozitivelor cu port Ethernet (cum ar fi imprimante, calculatoare fără Wi-Fi etc.) la o rețea wireless. Practic, face legătura între o rețea cu fir și una fără fir.\n❌ „A wireless bridge increases the wireless signal strength of the access point.” NU – Greșit. Aceasta este funcția unui range extender sau repeater, nu a unei punți wireless. Wireless bridge nu amplifică semnalul, ci doar permite conectarea rețelelor sau dispozitivelor separate fizic.\n✅ „Wireless bridges always work in pairs.” DA – Corect. Pentru a crea o punte wireless, este nevoie de cel puțin două dispozitive: unul la fiecare capăt. Astfel, ele „formează o pereche” pentru a lega două rețele sau locații prin semnal wireless.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 87
+    "sourceOrder": 87,
+    "translation": "Pentru fiecare dintre afirmațiile următoare, selectează Yes dacă afirmația este adevărată. În caz contrar, selectează No."
   },
   {
     "id": 75,
@@ -4046,7 +4055,8 @@
     ],
     "explanation": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n1. A switch sends unicast packets to one destination port only. - True\n2. A switch floods ports if it does not know where to send a packet - True\n3. A switch sends broadcast packets to the uplink port only. - False\n1. – Corect, switch-ul folosește tabela MAC address table pentru a trimite cadrele unicast doar către portul asociat adresei MAC de destinație (dacă adresa este cunoscută).\n2. – Corect, dacă destinația unui cadru este necunoscută (adresa MAC nu este în tabelă), switch-ul inundează (flood) cadrul către toate porturile, exceptând portul sursă. Acest lucru asigură că cadrul ajunge la destinație.\n3. - Incorect, cadrele broadcast (destinația FF:FF:FF:FF:FF:FF) sunt trimise către toate porturile (exceptând portul sursă), nu doar către uplink.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 119
+    "sourceOrder": 119,
+    "translation": "Pentru fiecare dintre afirmațiile următoare despre switch-uri, selectează Yes dacă afirmația este adevărată. În caz contrar, selectează No."
   },
   {
     "id": 104,
@@ -4245,7 +4255,8 @@
     ],
     "explanation": "Your network uses routers configured with the RIP router protocol.\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer:\n1. A route can contain no more than 15 hops\n✅ Yes – RIP acceptă maximum 15 hops (salturi) ca distanță. – Orice rută cu mai mult de 15 hops este considerată inacesibilă.\n🔹 2. Route changes are broadcast immediately through the network\n❌ No – RIP nu trimite imediat modificările. – Actualizările de rută sunt trimise periodic (la fiecare 30 de secunde) și nu instant. – Mai mult, RIP folosește broadcast (nu multicast) și are convergență lentă.\n🔹 3. Route management becomes more efficient as the network grows\n❌ No – Dimpotrivă, RIP devine ineficient în rețele mari, deoarece:\nAre limită de 15 hops\nSe bazează pe actualizări periodice\nNu are informații detaliate despre latență sau lățime de bandă\n🔹 4. Routes are calculated based on the number of hops required\n✅ Yes – RIP calculează rutele în funcție de numărul de hops (salturi) – este singura metrică pe care o folosește. – Nu ia în calcul viteza, lățimea de bandă sau congestia rețelei.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 125
+    "sourceOrder": 125,
+    "translation": "Rețeaua folosește routere configurate cu protocolul de rutare RIP. Pentru fiecare afirmație, selectează Yes dacă este adevărată. În caz contrar, selectează No."
   },
   {
     "id": 110,
@@ -4476,7 +4487,8 @@
     ],
     "explanation": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.\nEach correct selection is worth one point.\n1. Dynamic Routing provides the ability to add networks automatically by learning them from other RIP routers. - True\n2. Dynamic Routing provides the ability to automatically remove routes from the routing table when other RIP neighbors delete them. - True\n3. Dynamic Routing provides the ability to select the best route based on routing metrics. - True\n1. – Corect, dynamic routing (ex: RIP - Routing Information Protocol) permite routerelor să învețe automat despre rețelele disponibile de la vecinii lor și să le adauge în tabela de rutare.\n2. – Corect, când un router RIP nu mai primește actualizări pentru o rută, o consideră inactivă și o elimină automat din tabela de rutare, de obicei după un timeout.\n3. – Corect, dynamic routing folosește metrici (de ex. număr de hop-uri în RIP, lățime de bandă sau întârziere în alte protocoale ca OSPF/EIGRP) pentru a determina cea mai bună rută spre o destinație.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 132
+    "sourceOrder": 132,
+    "translation": "Pentru fiecare dintre afirmațiile următoare despre rutarea dinamică, selectează Yes dacă afirmația este adevărată. În caz contrar, selectează No."
   },
   {
     "id": 117,
@@ -4750,7 +4762,8 @@
     ],
     "explanation": "OSPF uses bandwidth and delay as routing metrics – True/False\nRIP calculated routes can contain no more than 15 hops – True/False\nOSPF take longer than RIP to update router tables based on changing conditions – True/False\nRIP generates more update traffic than OSPF – True/False\nRIP automatically adds networks to the routing table – True/False\nRIP automatically removes routes from the routing table – True/False\nRIP determines routes based on bandwidth and availability – True/False\n1. OSPF uses bandwidth and delay as routing metrics ❌ False 🔎 Explicație: OSPF (Open Shortest Path First) folosește doar lățimea de bandă (bandwidth) pentru calculul metricii (cost). Nu ia în considerare direct întârzierea (delay), aceasta este specifică altor protocoale precum EIGRP.\n✅ 2. RIP calculated routes can contain no more than 15 hops ✔️ True 🔎 Explicație: RIP (Routing Information Protocol) are o limită de 15 hopuri. Dacă o destinație este la 16 hopuri sau mai mult, este considerată inaccesibilă.\n3. OSPF takes longer than RIP to update router tables based on changing conditions ❌ False 🔎 Explicație: OSPF actualizează rapid tabelele de rutare când apare o schimbare. În schimb, RIP trimite actualizări la fiecare 30 secunde, deci este mai lent în adaptare. Așadar, OSPF este mai rapid decât RIP la actualizări.\n✅ 4. RIP generates more update traffic than OSPF ✔️ True 🔎 Explicație: RIP trimite întreaga sa tabelă de rutare către vecini la fiecare 30 de secunde, ceea ce generează mult trafic. OSPF trimite doar actualizări când se schimbă ceva, fiind mai eficient.\n✅ 5. RIP automatically adds networks to the routing table ✔️ True 🔎 Explicație: RIP este un protocol dinamic – adaugă automat în tabelul de rutare rețelele învățate de la alți routeri RIP.\n✅ 6. RIP automatically removes routes from the routing table ✔️ True 🔎 Explicație: Dacă o rută nu mai este auzită (după un timeout – de obicei 180 sec), RIP o șterge automat din tabelă.\n7. RIP determines routes based on bandwidth and availability ❌ False 🔎 Explicație: RIP nu ia în calcul banda sau disponibilitatea. Folosește numărul de hopuri ca singurul criteriu de selecție a rutelor.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 140
+    "sourceOrder": 140,
+    "translation": "Pentru fiecare afirmație despre protocoalele de rutare, selectează Adevărat sau Fals."
   },
   {
     "id": 125,
@@ -4880,7 +4893,8 @@
     ],
     "explanation": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n1. Quality of Service (QoS) allows you to define the priority traffic on the network. - True\n2. Quality of Service (QoS) allows you to control bandwidth. - True\n3. Quality of Service (QoS) allows you to assign protocols dynamically. - False\n1. – Corect. QoS permite prioritizarea anumitor tipuri de trafic (ex: VoIP, video), pentru o performanță mai bună.\n2. – Corect. QoS poate limita sau rezerva lățime de bandă pentru anumite aplicații sau dispozitive.\n3. – Incorect. QoS nu are legătură cu atribuirea dinamică a protocoalelor, ci doar cu gestionarea traficului de rețea.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 144
+    "sourceOrder": 144,
+    "translation": "Pentru fiecare dintre afirmațiile următoare despre Quality of Service (QoS), selectează Yes dacă afirmația este adevărată. În caz contrar, selectează No."
   },
   {
     "id": 129,
@@ -6826,7 +6840,8 @@
     ],
     "explanation": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.\nEach correct selection is worth one point.\nHTTP, TELNET, FTP, and SMTP protocols operate on Layer 7 of the OSI model. - True\nLayer 4 of the OSI model controls dialogue between computers. - False\nLayer 3 of the OSI model controls routing between network devices. - True",
     "source": "uploaded-question-bank",
-    "sourceOrder": 201
+    "sourceOrder": 201,
+    "translation": "Pentru fiecare dintre afirmațiile următoare despre modelul OSI, selectează Yes dacă afirmația este adevărată. În caz contrar, selectează No."
   },
   {
     "id": 185,
@@ -7087,7 +7102,8 @@
     ],
     "explanation": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.\nEach correct selection is worth one point\nThe TCP/IP model has four layers, which correspond with the OSI model's seven layers. - True\nThe TCP/IP application layer corresponds with the top four layers of the OSI model. - False\nThe TCP/IP transport and Internet layers correspond with layers 3 and 4 of the OSI model. - True\n1. „The TCP/IP model has four layers, which correspond with the OSI model’s seven layers.”\n✔Răspuns corect: Yes\nModelul TCP/IP are 4 straturi: Application, Transport, Internet, Network Access\nModelul OSI are 7 straturi. Cele 4 din TCP/IP pot fi mapate peste cele 7 OSI astfel:\nApplication (TCP/IP) ≈ Application, Presentation, Session (OSI)\nTransport (TCP/IP) ≈ Transport (OSI)\nInternet (TCP/IP) ≈ Network (OSI)\nNetwork Access (TCP/IP) ≈ Data Link + Physical (OSI)\n2. „The TCP/IP application layer corresponds with the top four layers of the OSI model.”\n❌ Răspuns corect: No\nStratul Application din TCP/IP corespunde doar cu trei straturi superioare ale modelului OSI:\nApplication, Presentation, Session\nNu cu patru.\n3. „The TCP/IP transport and Internet layers correspond with layers 3 and 4 of the OSI model.”\n✔Răspuns corect: Yes\nTransport (TCP/IP) → corespunde cu Layer 4 - Transport (OSI)\nInternet (TCP/IP) → corespunde cu Layer 3 - Network (OSI)",
     "source": "uploaded-question-bank",
-    "sourceOrder": 209
+    "sourceOrder": 209,
+    "translation": "Pentru fiecare dintre afirmațiile următoare despre modelul TCP/IP, selectează Yes dacă afirmația este adevărată. În caz contrar, selectează No."
   },
   {
     "id": 193,
@@ -7275,7 +7291,8 @@
     ],
     "explanation": "For each of the following statements, select Yes if the statement is true. Otherwise, select No. Each correct selection is worth one point.\nAn IPv4 address consists of 64 bits. - False\nIt is standard practice to divide the binary bits of an IPv4 address into 8-bit fields named octets. - True\nThe value of any IPv4 octet can be from 0 to 256. - False\n1. „An IPv4 address consists of 64 bits.”\n🔴 Răspuns corect: No ✔ IPv4 are 32 de biți, nu 64. IPv6 are 128 biți.\n2. „It is standard practice to divide the binary bits of an IPv4 address into 8-bit fields named octets.”\n🟢 Răspuns corect: Yes ✔ O adresă IPv4 este formată din 4 octeți (8 biți fiecare), ex: 192.168.1.1.\n3. „The value of any IPv4 octet can be from 0 to 256.”\n🔴 Răspuns corect: No ✔ Un octet are 8 biți, deci valorile sunt 0 până la 255. 256 este în afara intervalului permis (valoare maximă = 2⁸ - 1 = 255).",
     "source": "uploaded-question-bank",
-    "sourceOrder": 215
+    "sourceOrder": 215,
+    "translation": "Pentru fiecare dintre afirmațiile următoare despre IPv4, selectează Yes dacă afirmația este adevărată. În caz contrar, selectează No."
   },
   {
     "id": 199,
@@ -7951,7 +7968,8 @@
     ],
     "explanation": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.\nEach correct selection is worth one point.\nIPv6 addresses are 64-bit in length. – False, IPv6 are 128 biți\nIPv6 addresses are divided into 8-bit blocks. – False, IPv6 are 8 blocuri a câte 16 biți, nu 8.\nIPv6 addresses are represented by dotted-decimal notation. – False, Folosește hexazecimal, nu format cu puncte zecimal.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 235
+    "sourceOrder": 235,
+    "translation": "Pentru fiecare dintre afirmațiile următoare despre IPv6, selectează Yes dacă afirmația este adevărată. În caz contrar, selectează No."
   },
   {
     "id": 213,
@@ -7978,7 +7996,8 @@
     ],
     "explanation": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.\nEach correct selection is worth one point.\n0:0:0:0:0:0:0:1 is the Loopback address for IPv6. - True\nFEC0:9C5A is a valid Site-Local IPv6 address. - True\nFE80:F856:02AA is a valid Link-Local (APIPA) IPv6 address. - True\nExplicație:\n1. 0:0:0:0:0:0:0:1 is the Loopback address for IPv6. – Yes, Adresa ::1 (forma prescurtată a 0:0:0:0:0:0:0:1) este adresa de loopback în IPv6, echivalentă cu 127.0.0.1 în IPv4. Se folosește pentru a testa comunicația internă a unui dispozitiv.\n2. FECO::9C5A is a valid Site-Local IPv6 address. – Yes, Intervalul FEC0::/10 a fost rezervat pentru site-local addresses (adrese locale pentru o rețea administrativă mare), dar a fost depreciat în RFC 3879. Cu toate acestea, adresa este tehnic validă, chiar dacă nu se mai folosește în practică. Deci, din perspectiva testului: este considerată validă.\n3. FE80::F856:02AA is a valid Link-Local (APIPA) IPv6 address. – Yes, Adresele Link-Local în IPv6 sunt în intervalul FE80::/10. Ele sunt utilizate pentru comunicarea între dispozitive pe aceeași legătură (fără rutare). APIPA este un termen specific IPv4 (169.254.x.x), dar în acest context este acceptabil să se spună că FE80:: este echivalentul Link-Local.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 236
+    "sourceOrder": 236,
+    "translation": "Pentru fiecare dintre afirmațiile următoare despre adresarea IPv6, selectează Yes dacă afirmația este adevărată. În caz contrar, selectează No."
   },
   {
     "id": 214,
@@ -8005,7 +8024,8 @@
     ],
     "explanation": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.\nEach correct selection is worth one point\n21DA:D3:0:2F3B:2AA:FF:FE28:9C5A is a valid IPv6 unicast address. - True\nFE80::2AA:FF:FE28:9C5A is a valid IPv6 address. - True\n21DA:02AA:::FF:FE28:9C5A is a valid IPv6 address. - False\n1. 21DA:D3:0:2F3B:2AA:FF:FE28:9C5A is a valid IPv6 unicast address\n✔Yes Este o adresă unicast validă (nu începe cu FF – care ar semnala multicast, nici cu FE80 – care e link-local). Formatul este corect – are 8 blocuri hex separate de două puncte :.\n2. FE80::2AA:FF:FE28:9C5A is a valid IPv6 address\n✔Yes Aceasta este o adresă link-local validă în IPv6. Prefixul FE80::/10 este rezervat pentru adrese locale pe interfață (link-local). Utilizarea :: este validă și comprimă grupuri de zerouri.\n3. 21DA::02AA:::FF:FE28:9C5A is a valid IPv6 address\n❌ No Invalidă deoarece folosește :: de două ori – ceea ce nu este permis în formatul IPv6. În IPv6, :: poate fi folosit o singură dată într-o adresă pentru a reprezenta grupuri de zerouri.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 237
+    "sourceOrder": 237,
+    "translation": "Pentru fiecare dintre afirmațiile următoare despre adresele IPv6, selectează Yes dacă afirmația este adevărată. În caz contrar, selectează No."
   },
   {
     "id": 215,
@@ -9067,7 +9087,8 @@
     ],
     "explanation": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.\nEach correct selection is worth one point.\nWith a recursive DNS query, the DNS server will contact any other DNS servers it knows about to resolve the request. – True\nWhen an iterative query cannot be resolved from local data, such as local zone files or a cache of previous queries, the query needs to be escalated to a root DNS server. - True\nA DNS server makes an iterative query as it tries to find names outside of its local domain when it is not configured with a forwarder. - True\n1. \"With a recursive DNS query, the DNS server will contact any other DNS servers it knows about to resolve the request.\"\n✔ Corect → Selectează „Yes”\nLa o interogare recursivă, serverul DNS preia întreaga responsabilitate de a rezolva numele. Dacă nu are răspunsul local, va contacta alte servere DNS pentru a găsi adresa corectă și va returna clientului un rezultat final.\n2. \"When an iterative query cannot be resolved from local data, such as local zone files or a cache of previous queries, the query needs to be escalated to a root DNS server.\"\n✔ Corect → Selectează „Yes”\nÎntr-o interogare iterativă, serverul DNS returnează ceea ce știe deja sau adrese de servere superioare. Dacă nu are date locale, poate contacta un server root pentru a continua rezoluția, deci afirmația este corectă.\n3. \"A DNS server makes an iterative query as it tries to find names outside of its local domain when it is not configured with a forwarder.\"\n✔ Corect → Selectează „Yes”\nDacă nu este configurat cu un forwarder, serverul DNS face o interogare iterativă, contactând direct servere root sau autoritare pentru a obține numele dorit.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 268
+    "sourceOrder": 268,
+    "translation": "Pentru fiecare dintre afirmațiile următoare despre interogările DNS, selectează Yes dacă afirmația este adevărată. În caz contrar, selectează No."
   },
   {
     "id": 244,
@@ -9443,7 +9464,8 @@
     ],
     "explanation": "Network client computers running Windows 8.1 and Windows 10 are configured to receive IPv4 addresses through DHCP. The DHCP server fails. For each of the following statements, select Yes if the statement is true. Otherwise, select No. Hot Area:\n1. \"Clients will attempt to renew address leases when they are halfway through the lease period.\"\n✅ Răspuns: YES – Acesta este comportamentul normal DHCP: la 50% din perioada de leasing (T1), clientul încearcă să reînnoiască adresa. – Chiar dacă serverul a căzut, clientul tot va încerca, deși fără succes.\n🔹 2. \"Clients will continue to use their address throughout the lease period.\"\n✅ Răspuns: YES – Faptul că serverul a căzut nu afectează folosirea adresei până la expirarea leasingului. – Clientul are dreptul să păstreze adresa în acest interval, chiar dacă nu o poate reînnoi.\n🔹 3. \"Clients will continue to use their addresses after the lease period until a DHCP server becomes available.\"\n❌ Răspuns: NO\n– În mod corect, conform specificației DHCP, dacă leasingul a expirat complet (inclusiv perioada de grație de 87,5% → T2), iar serverul nu a răspuns, atunci:\nClientul trebuie să renunțe la adresă și va încerca să obțină una nouă.\n– În Windows, comportamentul obișnuit după expirarea leasingului este să își aloce o adresă APIPA (169.254.x.x) dacă nu găsește un server.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 279
+    "sourceOrder": 279,
+    "translation": "Clienții din rețea primesc adrese IPv4 prin DHCP, dar serverul DHCP se defectează. Pentru fiecare afirmație, selectează Yes dacă este adevărată. În caz contrar, selectează No."
   },
   {
     "id": 253,
@@ -11079,7 +11101,8 @@
     ],
     "explanation": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.\nEach correct selection is worth one point.\nThe tracert command displays router addresses that are traversed between a source and a destination. - True\nThe tracert command determines packet loss between a source and a destination. - False\nThe tracert command can display a list of routers being used for all active connections. - False\n1. „The tracert command displays router addresses that are traversed between a source and a destination.”\n✔Yes Explicație: Asta este exact funcția comenzii tracert — afișează fiecare router (hop) prin care trec pachetele de date de la sursă la destinație.\n2. „The tracert command determines packet loss between a source and a destination.”\n❌ No Explicație: tracert nu este folosit pentru măsurarea pierderii de pachete. Pentru acest scop, se folosește comanda ping sau instrumente precum pathping sau ping -n.\n3. „The tracert command can display a list of routers being used for all active connections.”\n❌ No Explicație: tracert arată doar traseul pentru o anumită destinație, nu toate conexiunile active. Pentru a vedea conexiunile active, se folosește netstat.",
     "source": "uploaded-question-bank",
-    "sourceOrder": 327
+    "sourceOrder": 327,
+    "translation": "Pentru fiecare dintre afirmațiile următoare despre comanda tracert, selectează Yes dacă afirmația este adevărată. În caz contrar, selectează No."
   },
   {
     "id": 299,
